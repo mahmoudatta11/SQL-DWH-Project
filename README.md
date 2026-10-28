@@ -1,5 +1,7 @@
 # 🏗️ SQL Data Warehouse Project
 
+[![Notion Project Plan](https://img.shields.io/badge/Notion-Project%20Plan-000000?logo=notion)](https://app.notion.com/p/Data-Warehouse-Project-401c429bec4b80119050f56df662b9e1)
+
 A modern, layered **Data Warehouse** built with **PostgreSQL** following the **Medallion Architecture** (Bronze → Silver → Gold).  
 This project demonstrates end-to-end data engineering: ingestion, cleaning, modeling, and quality assurance — all in pure SQL.
 
@@ -98,6 +100,7 @@ The `quality_check_gold.sql` runs **7 automated checks**:
 
 - **[Data Catalog](docs/data_catalog.md)** — Column-level dictionary with data types & example values
 - **[Naming Conventions](docs/naming_conventions.md)** — Layer-by-layer standards (source-aligned in Silver, business-friendly in Gold)
+- **[Project Planning](docs/project-planning.md)** — Milestones, tasks, timeline & design decisions (exported from Notion)
 
 ---
 
@@ -121,7 +124,7 @@ I design and build end-to-end data solutions — from messy raw sources to trust
 
 ## 🙏 Special Thanks & Acknowledgment
 
-A heartfelt **thank you to [Baraa](https://github.com/datewithbaraa)** — the incredible mentor behind **Data with Baraa**.  
+A heartfelt **thank you to [Baraa](https://github.com/datewithbaraa)** — the incredible mentor behind **DATE with BARAA**.  
 I learned the foundations of this craft, the discipline of clean SQL, and the mindset of a true Data Engineer from him.  
 His teaching style — practical, no-fluff, and deeply caring — shaped how I think about data today.
 
